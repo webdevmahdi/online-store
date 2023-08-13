@@ -1,9 +1,11 @@
 .product-container{
     display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.products{
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    gap: 20px;
 }
 
 @media only screen and (max-width:600px) {

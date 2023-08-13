@@ -11,13 +11,15 @@ function Products() {
     }, {})
     console.log(products)
     return (
-        <div className='product-container'>
+        <div className="product-container">
+        <div className='products'>
             {
                 products.map(product => <Product
                     product={product}
                     key={product.id}
                 ></Product>)
             }
+        </div>
         </div>
     )
 }
