@@ -20,9 +20,6 @@ function Products() {
         setCartText(product.title)
         setCart(updatedCart)
         setImage(product.thumbnail)
-        // let productID = product[id];
-        // let cartID = cart.product[id]
-        // 
     }
 
 
