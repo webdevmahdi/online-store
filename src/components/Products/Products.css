@@ -1,11 +1,19 @@
 .product-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
+    position: relative;
 }
 .products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+}
+.cart{
+    padding-left: 30px;
+}
+.cart img{
+    height: 50px;
+    width: 50px;
 }
 
 @media only screen and (max-width:600px) {
