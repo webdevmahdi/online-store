@@ -1,11 +1,11 @@
 import './App.css'
-import Products from './components/Products/Products'
+import Cardgroup from './components/Cardgroup/Cardgroup'
 
 function App() {
 
   return (
     <div>
-      <Products></Products>
+      <Cardgroup></Cardgroup>
     </div>
   )
 }
